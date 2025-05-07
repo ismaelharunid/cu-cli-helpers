@@ -3,8 +3,10 @@
 # <cli_helpers>/src/choice_query.py
 
 
-
 from collections.abc import Mapping, Sequence
+
+
+__all__ = ('ChoiceQuery',)
 
 
 class ChoiceQuery:
